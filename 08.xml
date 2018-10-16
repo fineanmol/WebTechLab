@@ -1,0 +1,15 @@
+ <?xml version="1.0"?>
+<!DOCTYPE note [
+<!ELEMENT note (to,time,message,from)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+]>
+
+<note>
+<to>Yash</to>
+<time>10 AM</time>
+<message>Meet me at night.</message>
+<from>Kammo</from>
+</note> 
